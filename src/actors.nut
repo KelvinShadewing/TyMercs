@@ -64,34 +64,3 @@
 
   return -1;
 };
-
-//Game Actors
-::TestBall <- class extends Actor{
-	frame = 0;
-	yspeed = 0;
-
-	constructor(_x, _y){
-		base.constructor(_x, _y);
-		print("Made a ball.");
-	};
-
-	function step(){
-		yspeed += 0.5;
-		y += yspeed;
-		if(y > 240) deleteActor(this.id);
-		drawSprite(sprMidiP, frame + 208, x, y);
-		if(frame < 7) frame += 1;
-		else frame = 0;
-	};
-
-	function destructor(){
-		print("Lost a ball.");
-	};
-};
-
-::Physical <- class extends Actor{
-	function move(_x, _y){
-		x += _x;
-		y += _y;
-	};
-};
