@@ -1,6 +1,6 @@
 #!/bin/bash
-####################
-# KYRODIAN LEGENDS #
-####################
+######################
+# TYRIAN MERCENARIES #
+######################
 
 xyg tymercs.nut

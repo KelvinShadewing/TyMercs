@@ -4,7 +4,7 @@ A space mercenary game based off of Tyrian.
 
 ## License
 
-The code for this game is free under the GNU General Public License.
+The code for this game is free under the GNU General Public License v.3.
 
 The graphics are all free under CC-BY 3.0.
 
