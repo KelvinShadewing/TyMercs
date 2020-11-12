@@ -8,7 +8,7 @@
 
 //Run game sources
 donut("src/global.nut");
-donut("src/assets.nut");
+donut("std/assets.nut");
 donut("src/actors.nut");
 donut("src/menu.nut");
 donut("src/intro.nut");
