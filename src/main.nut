@@ -2,9 +2,9 @@
 	//Set up the display
 	setBackgroundColor(0);
 	setScalingFilter(1);
-	setWindowTitle("Kyrodian Legends");
-	setResolution(320, 180);
-	setFPS(60);
+	setWindowTitle("Tyrian Mercenaries");
+	setResolution(320, 240);
+	setFPS(30);
 
 	//Set the game mode
 	gvGameMode = 0;
@@ -14,6 +14,7 @@
 	while(!quit){
 		
 		runActors();
+		if(keyPress(k_escape)) quit = true;
 		update();
 	};
 };
